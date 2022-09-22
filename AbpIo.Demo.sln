@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29020.237
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpIo.Demo.Domain", "src\AbpIo.Demo.Domain\AbpIo.Demo.Domain.csproj", "{554AD327-6DBA-4F8F-96F8-81CE7A0C863F}"
 EndProject
@@ -38,6 +38,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpIo.Demo.HttpApi.Client.ConsoleTestApp", "test\AbpIo.Demo.HttpApi.Client.ConsoleTestApp\AbpIo.Demo.HttpApi.Client.ConsoleTestApp.csproj", "{EF480016-9127-4916-8735-D2466BDBC582}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbpIo.Demo.DbMigrator", "src\AbpIo.Demo.DbMigrator\AbpIo.Demo.DbMigrator.csproj", "{AA94D832-1CCC-4715-95A9-A483F23A1A5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{E2D9DE39-28C8-42E1-BE61-CF016AE83FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.Demo.Infra.Core", "Abp.Demo.Infra.Core\Abp.Demo.Infra.Core.csproj", "{3D20AFAB-1644-4A55-BCD8-D754B9198167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abp.Demo.Shared", "Ht.Crm.Shared\Abp.Demo.Shared.csproj", "{6831644F-9CD5-42BB-9CBF-E5B9F79F645B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +115,14 @@ Global
 		{AA94D832-1CCC-4715-95A9-A483F23A1A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA94D832-1CCC-4715-95A9-A483F23A1A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA94D832-1CCC-4715-95A9-A483F23A1A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D20AFAB-1644-4A55-BCD8-D754B9198167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D20AFAB-1644-4A55-BCD8-D754B9198167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D20AFAB-1644-4A55-BCD8-D754B9198167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D20AFAB-1644-4A55-BCD8-D754B9198167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6831644F-9CD5-42BB-9CBF-E5B9F79F645B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6831644F-9CD5-42BB-9CBF-E5B9F79F645B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6831644F-9CD5-42BB-9CBF-E5B9F79F645B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6831644F-9CD5-42BB-9CBF-E5B9F79F645B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,6 +144,8 @@ Global
 		{E512F4D9-9375-480F-A2F6-A46509F9D824} = {04DBDB01-70F4-4E06-B468-8F87850B22BE}
 		{EF480016-9127-4916-8735-D2466BDBC582} = {04DBDB01-70F4-4E06-B468-8F87850B22BE}
 		{AA94D832-1CCC-4715-95A9-A483F23A1A5D} = {CA9AC87F-097E-4F15-8393-4BC07735A5B0}
+		{3D20AFAB-1644-4A55-BCD8-D754B9198167} = {E2D9DE39-28C8-42E1-BE61-CF016AE83FC2}
+		{6831644F-9CD5-42BB-9CBF-E5B9F79F645B} = {E2D9DE39-28C8-42E1-BE61-CF016AE83FC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28315BFD-90E7-4E14-A2EA-F3D23AF4126F}
